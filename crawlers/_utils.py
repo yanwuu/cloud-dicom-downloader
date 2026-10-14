@@ -19,7 +19,7 @@ _HEADERS = {
 	"Accept-Language": "zh,zh-CN;q=0.7,en;q=0.3",
 	"Accept": "*/*",
 	"Upgrade-Insecure-Requests": "1",
-	"User-Agent": f"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/143.0",
+	"User-Agent": f"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/157.0",
 }
 
 
