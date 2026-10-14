@@ -4,11 +4,14 @@
 
 > [!WARNING]
 > 
-> 由于没有时间，本项目不再更新，也不再免费帮下载片子；如要下载可联系 [contact@kaciras.com](mailto:contact@kaciras.com)，每次检查 50￥，需要报告的二维码或链接。
+> 本项目自 2025-10-26 起不再更新，原因：
+> - 发现有医院针对本项目进行反爬，我没有时间，也不想做无意义的攻防。
 > 
+> 需要下载片子可联系 [contact@kaciras.com](mailto:contact@kaciras.com)，每个报告 50￥，需要报告上或分享的二维码或链接。
+>
 > 下载须知：
 > - 部分医院的系统复杂，需要较长的时间（数小时）才能爬取。
-> - 少数系统不提供原始文件，无法下载，已知有：`锐珂 CareaStream`、`联众医疗 eImage`、`东软睿影 cloud film system`
+> - 少数系统不提供原始文件，无法下载，已知有：`锐珂 CareaStream`、`联众医疗 eImage`、`东软睿影`
 
 关于下载的格式：
 
@@ -25,19 +28,20 @@
 ├─── [序列编号]-[序列名2]
 └─── ......
 ```
-可以通过阅片软件或在线阅片网站来查看下载的文件，打开时选择某个序列或整个检查的文件夹即可。
+
 
 * [使用步骤](#使用步骤)
 * [支持的站点](#支持的站点)
   * [medicalimagecloud.com](#medicalimagecloudcom)
   * [mdmis.cq12320.cn](#mdmiscq12320cn)
   * [ylyyx.shdc.org.cn](#ylyyxshdcorgcn)
-  * [zscloud.zs-hospital.sh.cn](#zs-hospitalshcn)
+  * ~~zscloud.zs-hospital.sh.cn~~（已失效）
   * [ftimage.cn](#ftimagecn)
-  * [qr.szjudianyun.com](#qrszjudianyuncom)
+  * ~~qr.szjudianyun.com~~（已失效）
   * [ss.mtywcloud.com](#ssmtywcloudcom)
   * [m.yzhcloud.com](#myzhcloudcom)
   * [work.sugh.net](#worksughnet)
+  * ~~cloudpacs.jdyfy.com~~（已失效）
 
 ## 使用步骤
 
@@ -82,7 +86,7 @@ URL 格式：`https://mdmis.cq12320.cn/wcs1/mdmis-app/h5/#/share/detail?share_id
 python downloader.py <url>
 ```
 
-### zs-hospital.sh.cn
+### zs-hospital.sh.cn（已失效）
 
 复旦大学附属中山医院所使用的影像平台，URL 格式为`https://zscloud.zs-hospital.sh.cn/film/#/shared?code=<code>`。
 
@@ -103,7 +107,7 @@ python downloader.py <url>
 
 该爬虫依赖浏览器，在 Windows 上默认使用 Edge，如果启动失败请尝试运行`playwright install`改用捆绑的浏览器。
 
-### qr.szjudianyun.com
+### qr.szjudianyun.com（已失效）
 
 URL 格式为`http://qr.szjudianyun.com/<xxx>/?a=<hospital_id>&b=<study>&c=<password>`，可从报告单扫码得到。
 
